@@ -29,8 +29,6 @@
 - Working with file operations and ensuring proper file paths can be a source of potential errors, so thorough testing and error handling are essential.
 
 
-# API Documentation
-
 ## To start the application
 
 - Install all dependencies using command:  ```npm i || npm install```
