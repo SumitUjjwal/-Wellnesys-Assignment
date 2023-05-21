@@ -50,14 +50,18 @@
 - Example Response (200 OK):
 
 ```json
-Welcome to the API!
-This is an web application built with Node.js and Express.js.
+{
+    Welcome to the API!
+    This is an web application built with Node.js and Express.js.
+}
 ```
 
 - Example Response (500 Internal Server Error):
 
 ```json
-Internal server error.
+{
+    Internal server error.
+}
 ```
 
 ## Route 2: Handle POST requests to "/api/users" and save user information to a JSON file
@@ -83,7 +87,9 @@ Internal server error.
 
 - Example Request: POST /api/users
 ```json
-Content-Type: application/json
+{
+    Content-Type: application/json
+}
 {
     "id": 11,
     "firstName": "Marcel",
@@ -150,13 +156,17 @@ Content-Type: application/json
 - Example Response (200 OK):
 
 ```json
-User information saved successfully.
+{
+    User information saved successfully.
+}
 ```
 
 - Example Response (500 Internal Server Error):
 
 ```json
-Internal server error.
+{
+    Internal server error.
+}
 ```
 
 ## Route 3: Retrieve User Information from the JSON File
@@ -254,7 +264,7 @@ Internal server error.
 
 ```json
 {
-  "error": "User with ID 12345 not found."
+  "User with ID 12345 not found."
 }
 ```
 
@@ -262,6 +272,6 @@ Internal server error.
 
 ```json
 {
-  "error": "Internal server error."
+  "Internal server error."
 }
 ```
