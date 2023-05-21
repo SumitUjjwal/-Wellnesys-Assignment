@@ -31,6 +31,11 @@
 
 # API Documentation
 
+## To start the application
+
+- Install all dependencies using command:  ```npm i || npm install```
+- Start the server with command:  ```npm run server``` 
+
 ## Route 1: Handle GET requests for the root URL ("/") and display a welcome message
 
 - Description: This route handles GET requests to the root URL ("/") and displays a welcome message to the client.
