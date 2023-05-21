@@ -51,8 +51,8 @@
 
 ```json
 {
-    Welcome to the API!
-    This is an web application built with Node.js and Express.js.
+    "Welcome to the API!
+    This is an web application built with Node.js and Express.js."
 }
 ```
 
@@ -60,7 +60,7 @@
 
 ```json
 {
-    Internal server error.
+    "Internal server error."
 }
 ```
 
@@ -88,7 +88,7 @@
 - Example Request: POST /api/users
 ```json
 {
-    Content-Type: application/json
+   " Content-Type: application/json"
 }
 {
     "id": 11,
@@ -157,7 +157,7 @@
 
 ```json
 {
-    User information saved successfully.
+   " User information saved successfully."
 }
 ```
 
@@ -165,7 +165,7 @@
 
 ```json
 {
-    Internal server error.
+    "Internal server error."
 }
 ```
 
