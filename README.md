@@ -51,8 +51,8 @@
 
 ```json
 {
-    "Welcome to the API! \n
-    This is an web application built with Node.js and Express.js."
+    "Welcome to the API!"
+    "This is an web application built with Node.js and Express.js."
 }
 ```
 
